@@ -12,7 +12,8 @@ public class Break_crate : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.GetComponent<BoxCollider2D>().name == "Explosion(Clone)")
+        Debug.Log("Triggered");
+        if (col.GetComponent<BoxCollider2D>().name == "Explosion_child")
         {
             Destroy(this.gameObject);
         }

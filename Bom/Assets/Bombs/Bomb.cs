@@ -8,6 +8,7 @@ public class Bomb : MonoBehaviour
     public float Fuse_length;
     public GameObject explosion;
     public Rigidbody2D rb;
+    private BoxCollider2D myCol;
 
     private float Detonate_time;
 
@@ -15,6 +16,17 @@ public class Bomb : MonoBehaviour
     void Start()
     {
         Detonate_time = Time.time + Fuse_length;
+        myCol = GetComponent<BoxCollider2D>();
+        myCol.isTrigger = true;
+    }
+
+    void OnTriggerExit2D(Collider2D col)
+    {
+
+        if (col.GetComponent<CapsuleCollider2D>().name == "Player")
+        {
+            myCol.isTrigger = false;
+        }
     }
 
     void Generate_Explosion()
@@ -25,7 +37,6 @@ public class Bomb : MonoBehaviour
 
     void Explode()
     {
-        Debug.Log("Exploded");
         Generate_Explosion();
         Destroy(this.gameObject);
     }
@@ -36,7 +47,6 @@ public class Bomb : MonoBehaviour
         if (Time.time > Detonate_time)
         {
             Explode();
-            Debug.Log("done");
         }
     }
 

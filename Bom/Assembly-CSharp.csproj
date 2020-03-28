@@ -55,26 +55,29 @@
   <ItemGroup>
      <Compile Include="Assets\Bombs\Bomb.cs" />
      <Compile Include="Assets\Bombs\Explosion.cs" />
+     <Compile Include="Assets\Break_trap.cs" />
      <Compile Include="Assets\Crate\Break_crate.cs" />
      <Compile Include="Assets\Player\Bombing.cs" />
      <Compile Include="Assets\Player\Camera_controller.cs" />
      <Compile Include="Assets\Player\Player_movement.cs" />
      <Compile Include="Assets\Player\Player_stats.cs" />
+     <Compile Include="Assets\UI\Bomb_belt.cs" />
      <Compile Include="Assets\UI\Health_bar.cs" />
+     <None Include="Assets\Lab\Itch release tileset base 01.txt" />
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/basvd/Bom/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/basvd/Desktop/Gamejam/Bom/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>C:/Users/basvd/Bom/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>C:/Users/basvd/Desktop/Gamejam/Bom/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>C:/Users/basvd/Bom/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ <HintPath>C:/Users/basvd/Desktop/Gamejam/Bom/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/basvd/Bom/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/basvd/Desktop/Gamejam/Bom/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.DataPrivacy">
- <HintPath>C:/Users/basvd/Bom/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+ <HintPath>C:/Users/basvd/Desktop/Gamejam/Bom/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -278,13 +281,13 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.16f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Editor">
- <HintPath>C:/Users/basvd/Bom/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+ <HintPath>C:/Users/basvd/Desktop/Gamejam/Bom/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.StandardEvents">
- <HintPath>C:/Users/basvd/Bom/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+ <HintPath>C:/Users/basvd/Desktop/Gamejam/Bom/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Tracker">
- <HintPath>C:/Users/basvd/Bom/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+ <HintPath>C:/Users/basvd/Desktop/Gamejam/Bom/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.16f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

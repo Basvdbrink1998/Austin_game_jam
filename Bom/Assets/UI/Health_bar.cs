@@ -5,16 +5,21 @@ using UnityEngine.UI;
 
 public class Health_bar : MonoBehaviour
 {
-    public int health;
-    public int num_hearts;
+    private int health;
+    private int num_hearts;
 
     public Image[] hearts;
     public Sprite fullHeart;
     public Sprite emptyHeart;
 
-    void Set_health(int new_health)
+    public void Set_N_hearts(int new_N_hearts)
     {
-        health = new_health
+        num_hearts = new_N_hearts;
+    }
+
+    public void Set_health(int new_health)
+    {
+        health = new_health;
     }
 
     void Update()
